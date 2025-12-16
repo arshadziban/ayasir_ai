@@ -1,0 +1,66 @@
+# Ayasir AI Website
+
+[![Node.js](https://img.shields.io/badge/Node.js-v14+-green)](https://nodejs.org/)
+[![React](https://img.shields.io/badge/React-Latest-blue)](https://reactjs.org/)
+[![Python](https://img.shields.io/badge/Python-3.8+-blue)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
+
+## Overview
+
+Ayasir AI Website is a comprehensive full-stack web application designed to provide AI-powered Islamic conversational interactions and assistance through a modern, responsive user interface. The application features a React.js frontend with Tailwind CSS styling, paired with a Node.js backend server for seamless API communication and intelligent Islamic knowledge processing. This platform serves as an intelligent assistant for Islamic queries, Quranic references, Hadith insights, and Islamic guidance.
+
+### Key Features
+
+- **Islamic AI Chat Interface** - Real-time conversational assistance with Islamic knowledge and guidance
+- **Quranic & Hadith References** - Access to Islamic texts and scholarly interpretations
+- **Responsive Design** - Mobile-friendly UI built with Tailwind CSS
+- **Modular Architecture** - Well-organized component structure for easy maintenance
+- **Backend API** - Node.js Express server for robust Islamic knowledge processing
+- **Sidebar Navigation** - Intuitive navigation between different Islamic topics
+- **Production Ready** - Optimized build process and deployment configuration
+
+
+## System Architecture
+
+```
+┌─────────────────────────────────────────────────────────┐
+│         User Islamic Query & Interaction                │
+└────────────────────────┬────────────────────────────────┘
+                         │
+┌────────────────────────▼────────────────────────────────┐
+│          Frontend (React.js + Tailwind CSS)             │
+│  ┌──────────────────┬──────────────────────────────┐   │
+│  │  Islamic Chat    │  Navigation  │  About      │   │
+│  └──────────────────┴──────────────────────────────┘   │
+└────────────────────────┬────────────────────────────────┘
+                         │ HTTP/WebSocket
+┌────────────────────────▼────────────────────────────────┐
+│      Backend (Node.js + Express.js)                     │
+│  ┌──────────────────────────────────────────────────┐  │
+│  │  Islamic Knowledge API & Request Processing      │  │
+│  └──────────────────────────────────────────────────┘  │
+└────────────────────────┬────────────────────────────────┘
+                         │
+┌────────────────────────▼────────────────────────────────┐
+│   Islamic AI Processing & Quranic/Hadith Analysis       │
+└─────────────────────────────────────────────────────────┘
+```
+
+## Prerequisites
+
+The following software must be installed before proceeding:
+
+- **Node.js** (v14.0 or higher) - [Download](https://nodejs.org/)
+- **npm** (v6.0 or higher) - Bundled with Node.js
+- **Python** (v3.8 or higher) - [Download](https://www.python.org/)
+- **Git** - [Download](https://git-scm.com/)
+
+## Conclusion
+
+Ayasir AI Website represents a robust and comprehensive solution for delivering AI-powered Islamic knowledge and assistance. By leveraging modern web technologies and a well-architected full-stack approach, this application provides users with an accessible, reliable, and user-friendly platform for Islamic queries and guidance.
+
+The project is designed with scalability, maintainability, and extensibility in mind, making it suitable for both individual users and organizations seeking to integrate Islamic AI capabilities into their digital presence. Whether for personal Islamic learning, community support, or enterprise-level applications, Ayasir AI Website serves as a foundational platform that can be adapted and extended according to specific requirements and use cases.
+
+For questions, contributions, or further development inquiries, please refer to the contributing guidelines and support sections above.
+
+
