@@ -23,27 +23,36 @@ Ayasir AI Website is a comprehensive full-stack web application designed to prov
 ## System Architecture
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│         User Islamic Query & Interaction                │
-└────────────────────────┬────────────────────────────────┘
-                         │
-┌────────────────────────▼────────────────────────────────┐
-│          Frontend (React.js + Tailwind CSS)             │
-│  ┌──────────────────┬──────────────────────────────┐   │
-│  │  Islamic Chat    │  Navigation  │  About      │   │
-│  └──────────────────┴──────────────────────────────┘   │
-└────────────────────────┬────────────────────────────────┘
-                         │ HTTP/WebSocket
-┌────────────────────────▼────────────────────────────────┐
-│      Backend (Node.js + Express.js)                     │
-│  ┌──────────────────────────────────────────────────┐  │
-│  │  Islamic Knowledge API & Request Processing      │  │
-│  └──────────────────────────────────────────────────┘  │
-└────────────────────────┬────────────────────────────────┘
-                         │
-┌────────────────────────▼────────────────────────────────┐
-│   Islamic AI Processing & Quranic/Hadith Analysis       │
-└─────────────────────────────────────────────────────────┘
+User Islamic Query & Interaction
+              ↓
+    ┌─────────────────────┐
+    │    Frontend Layer    │
+    ├─────────────────────┤
+    │ React.js Component  │
+    │ • Chat Interface    │
+    │ • Navigation        │
+    │ • Sidebar           │
+    │ • About Page        │
+    └──────────┬──────────┘
+              ↓
+      [HTTP/WebSocket]
+              ↓
+    ┌─────────────────────┐
+    │   Backend Layer     │
+    ├─────────────────────┤
+    │ Node.js + Express   │
+    │ • API Endpoints     │
+    │ • Request Handler   │
+    │ • Data Processing   │
+    └──────────┬──────────┘
+              ↓
+    ┌─────────────────────┐
+    │ Islamic AI Engine   │
+    ├─────────────────────┤
+    │ • Quranic Data      │
+    │ • Hadith Analysis   │
+    │ • Knowledge Base    │
+    └─────────────────────┘
 ```
 
 ## Prerequisites
