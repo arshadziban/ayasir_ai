@@ -3,7 +3,6 @@
 [![Node.js](https://img.shields.io/badge/Node.js-v14+-green)](https://nodejs.org/)
 [![React](https://img.shields.io/badge/React-Latest-blue)](https://reactjs.org/)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ## Overview
 
