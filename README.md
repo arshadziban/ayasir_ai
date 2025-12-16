@@ -86,5 +86,3 @@ Ayasir AI Website represents a robust and comprehensive solution for delivering 
 The project is designed with scalability, maintainability, and extensibility in mind, making it suitable for both individual users and organizations seeking to integrate Islamic AI capabilities into their digital presence. Whether for personal Islamic learning, community support, or enterprise-level applications, Ayasir AI Website serves as a foundational platform that can be adapted and extended according to specific requirements and use cases.
 
 For questions, contributions, or further development inquiries, please refer to the contributing guidelines and support sections above.
-
-
