@@ -55,6 +55,22 @@ The following software must be installed before proceeding:
 - **Python** (v3.8 or higher) - [Download](https://www.python.org/)
 - **Git** - [Download](https://git-scm.com/)
 
+## UI Preview
+
+### Application Screenshots
+
+![UI Screenshot 1](ui/1.png)
+
+![UI Screenshot 2](ui/2.png)
+
+![UI Screenshot 3](ui/3.png)
+
+![UI Screenshot 4](ui/4.png)
+
+![UI Screenshot 5](ui/5.png)
+
+![UI Screenshot 6](ui/6.png)
+
 ## Conclusion
 
 Ayasir AI Website represents a robust and comprehensive solution for delivering AI-powered Islamic knowledge and assistance. By leveraging modern web technologies and a well-architected full-stack approach, this application provides users with an accessible, reliable, and user-friendly platform for Islamic queries and guidance.
