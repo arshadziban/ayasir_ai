@@ -42,6 +42,16 @@ Ayasir AI Website is a comprehensive full-stack web application designed to prov
 ![UI Screenshot 6](ui/6.png)
 
 
+### Why Ayasir?
+
+- **Accuracy over convenience** — Every answer is grounded in authentic Islamic sources with citations provided
+- **Scope integrity** — The AI is strictly constrained to Islamic topics, preventing off-topic or misleading responses
+- **Accessibility** — Designed for Muslims of all backgrounds, from students to scholars
+- **Modern stack** — Built with production-grade technologies: React, Node.js, and Tailwind CSS
+
+Ayasir is not a fatwa-issuing tool. It is an educational platform intended to help users learn, explore, and deepen their understanding of Islam — always encouraging consultation with qualified scholars for religious rulings.
+
+---
 
 <div align="center">
   <sub>© 2026 Ayasir · Built with dedication for the Muslim community</sub>
