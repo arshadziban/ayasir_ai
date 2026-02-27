@@ -9,7 +9,12 @@ Ayasir AI Website is a comprehensive full-stack web application designed to prov
 
 ### Key Features
 
+<div align="center">
+
 ![Key Features](ui/feature.png)
+
+</div>
+
 
 
 ## System Architecture
