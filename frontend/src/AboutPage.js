@@ -614,7 +614,7 @@ export default function AboutPage({ onClose }) {
 
           {/* Footer Info */}
           <div className="space-y-4 mb-8">
-            <p className="text-lg sm:text-xl font-semibold text-white">© 2025 Ayasir</p>
+            <p className="text-lg sm:text-xl font-semibold text-white">© 2026 Ayasir</p>
             <p className="text-white/70 text-sm sm:text-base font-light">
               Spreading Islamic Wisdom • Building Understanding • Serving the Ummah
             </p>

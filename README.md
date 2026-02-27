@@ -2,7 +2,6 @@
 
 [![Node.js](https://img.shields.io/badge/Node.js-v14+-green)](https://nodejs.org/)
 [![React](https://img.shields.io/badge/React-Latest-blue)](https://reactjs.org/)
-[![Python](https://img.shields.io/badge/Python-3.8+-blue)](https://www.python.org/)
 
 ## Overview
 
@@ -81,8 +80,6 @@ The following software must be installed before proceeding:
 
 ## Conclusion
 
-Ayasir AI Website represents a robust and comprehensive solution for delivering AI-powered Islamic knowledge and assistance. By leveraging modern web technologies and a well-architected full-stack approach, this application provides users with an accessible, reliable, and user-friendly platform for Islamic queries and guidance.
-
-The project is designed with scalability, maintainability, and extensibility in mind, making it suitable for both individual users and organizations seeking to integrate Islamic AI capabilities into their digital presence. Whether for personal Islamic learning, community support, or enterprise-level applications, Ayasir AI Website serves as a foundational platform that can be adapted and extended according to specific requirements and use cases.
+Ayasir AI Website represents a robust and comprehensive solution for delivering AI-powered Islamic knowledge and assistance. By leveraging modern web technologies and a well-architected full-stack approach, this application provides users with an accessible, reliable, and user-friendly platform for Islamic queries and guidance.The project is designed with scalability, maintainability, and extensibility in mind, making it suitable for both individual users and organizations seeking to integrate Islamic AI capabilities into their digital presence. Whether for personal Islamic learning, community support, or enterprise-level applications, Ayasir AI Website serves as a foundational platform that can be adapted and extended according to specific requirements and use cases.
 
 For questions, contributions, or further development inquiries, please refer to the contributing guidelines and support sections above.

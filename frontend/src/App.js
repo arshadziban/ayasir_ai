@@ -40,7 +40,7 @@ export default function App() {
     allChats[idx].messages.push({ sender: "user", text: message });
     setChatHistory(allChats);
     try {
-      const response = await fetch("https://back.techsabyte.com/api/ask", {
+      const response = await fetch("http://localhost:5000/api/ask", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ query: message })
