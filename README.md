@@ -19,45 +19,11 @@ Ayasir AI Website is a comprehensive full-stack web application designed to prov
 
 ## System Architecture
 
-```mermaid
-flowchart TD
-    User(["👤 User\nIslamic Query"])
+<div align="center">
 
-    subgraph Frontend["🖥️ Frontend Layer — React.js"]
-        Chat["💬 Chat Interface"]
-        Sidebar["📂 Sidebar Navigation"]
-        About["ℹ️ About Page"]
-    end
+![System Architecture](ui/architecture.png)
 
-    subgraph Backend["⚙️ Backend Layer — Node.js + Express"]
-        API["🔌 API Endpoints\n/api/ask"]
-        Handler["🔄 Request Handler"]
-        Processor["🧠 AI Relevance & Processing"]
-    end
-
-    subgraph AIEngine["🤖 Islamic AI Engine — Perplexity Sonar"]
-        Quran["📖 Quranic Knowledge"]
-        Hadith["📜 Hadith Analysis"]
-        KB["🏛️ Islamic Knowledge Base"]
-    end
-
-    User -->|"Types question"| Chat
-    Chat & Sidebar & About --> Handler
-    Handler --> API
-    API --> Processor
-    Processor -->|"POST /chat/completions"| Quran & Hadith & KB
-    Quran & Hadith & KB -->|"AI Response + Citations"| Processor
-    Processor -->|"JSON Response"| Chat
-```
-
-## Prerequisites
-
-The following software must be installed before proceeding:
-
-- **Node.js** (v14.0 or higher) - [Download](https://nodejs.org/)
-- **npm** (v6.0 or higher) - Bundled with Node.js
-- **Python** (v3.8 or higher) - [Download](https://www.python.org/)
-- **Git** - [Download](https://git-scm.com/)
+</div>
 
 ## UI Preview
 
