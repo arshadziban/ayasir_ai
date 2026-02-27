@@ -20,37 +20,35 @@ Ayasir AI Website is a comprehensive full-stack web application designed to prov
 
 ## System Architecture
 
-```
-User Islamic Query & Interaction
-              ↓
-    ┌─────────────────────┐
-    │    Frontend Layer    │
-    ├─────────────────────┤
-    │ React.js Component  │
-    │ • Chat Interface    │
-    │ • Navigation        │
-    │ • Sidebar           │
-    │ • About Page        │
-    └──────────┬──────────┘
-              ↓
-      [HTTP/WebSocket]
-              ↓
-    ┌─────────────────────┐
-    │   Backend Layer     │
-    ├─────────────────────┤
-    │ Node.js + Express   │
-    │ • API Endpoints     │
-    │ • Request Handler   │
-    │ • Data Processing   │
-    └──────────┬──────────┘
-              ↓
-    ┌─────────────────────┐
-    │ Islamic AI Engine   │
-    ├─────────────────────┤
-    │ • Quranic Data      │
-    │ • Hadith Analysis   │
-    │ • Knowledge Base    │
-    └─────────────────────┘
+```mermaid
+flowchart TD
+    User(["👤 User\nIslamic Query"])
+
+    subgraph Frontend["🖥️ Frontend Layer — React.js"]
+        Chat["💬 Chat Interface"]
+        Sidebar["📂 Sidebar Navigation"]
+        About["ℹ️ About Page"]
+    end
+
+    subgraph Backend["⚙️ Backend Layer — Node.js + Express"]
+        API["🔌 API Endpoints\n/api/ask"]
+        Handler["🔄 Request Handler"]
+        Processor["🧠 AI Relevance & Processing"]
+    end
+
+    subgraph AIEngine["🤖 Islamic AI Engine — Perplexity Sonar"]
+        Quran["📖 Quranic Knowledge"]
+        Hadith["📜 Hadith Analysis"]
+        KB["🏛️ Islamic Knowledge Base"]
+    end
+
+    User -->|"Types question"| Chat
+    Chat & Sidebar & About --> Handler
+    Handler --> API
+    API --> Processor
+    Processor -->|"POST /chat/completions"| Quran & Hadith & KB
+    Quran & Hadith & KB -->|"AI Response + Citations"| Processor
+    Processor -->|"JSON Response"| Chat
 ```
 
 ## Prerequisites
