@@ -9,13 +9,7 @@ Ayasir AI Website is a comprehensive full-stack web application designed to prov
 
 ### Key Features
 
-- **Islamic AI Chat Interface** - Real-time conversational assistance with Islamic knowledge and guidance
-- **Quranic & Hadith References** - Access to Islamic texts and scholarly interpretations
-- **Responsive Design** - Mobile-friendly UI built with Tailwind CSS
-- **Modular Architecture** - Well-organized component structure for easy maintenance
-- **Backend API** - Node.js Express server for robust Islamic knowledge processing
-- **Sidebar Navigation** - Intuitive navigation between different Islamic topics
-- **Production Ready** - Optimized build process and deployment configuration
+![Key Features](ui/feature.png)
 
 
 ## System Architecture
